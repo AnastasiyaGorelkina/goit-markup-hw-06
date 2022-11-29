@@ -457,6 +457,50 @@
             <button aria-label="Закрити" class="btn-close" data-modal-close>
                 <svg width="11px" height="11px" class="icon-close"><use href="./images/icon-dagger.svg#dagger"></use></svg>
             </button>
+
+            <form class="form-data">
+                    <b class="title-data">Залиште свої дані, ми вам передзвонимо</b>
+
+                    <div class="databox">
+                        <label class="data-label" for="username-data">Ім'я</label>
+                        <input class="data-input" type="name" name="name" id="username-data">
+                        <svg class="icon-data uname" width="12px" height="12px">
+                            <use href="./images/modal-icon.svg#name"></use>
+                        </svg>
+                    </div>
+                    <div class="databox">
+                        <label class="data-label" for="tel-data">Телефон</label>
+                        <input class="data-input" type="tel" name="tel" id="tel-data">
+                        <svg class="icon-data tell" width="13px" height="13px">
+                            <use href="./images/modal-icon.svg#tel"></use>
+                        </svg>
+                    </div>
+                    <div class="databox">
+                        <label class="data-label" for="mail-data">Пошта</label>
+                        <input class="data-input" type="email" name="mail" id="mail-data">
+                        <svg class="icon-data mail" width="15px" height="12px">
+                            <use href="./images/modal-icon.svg#mailo"></use>
+                        </svg>
+                    </div>
+                    <div class="databox">
+                        <label class="data-label" for="comment-data">Коментар</label>
+                        <textarea class="texterea-data" name="comment" id="comment-data" placeholder="Введіть текст"></textarea>
+                    </div>
+                    <div class="check-box">
+                        
+                        <label class="chek-label" for="accept-data">
+
+                            <input class="check-input" type="checkbox" name="topic" value="accept" id="accept-data">
+                            <svg class="icon-data-check" width="11px" height="8px">
+                                <use href="./images/modal-icon.svg#checks"></use>
+                            </svg>
+                            <span class="label-text">Погоджуюся з розсилкою та приймаю</span><a class="link-check" href="#">Умови договору</a>
+                        </label>
+                        
+                    </div>
+
+                        <button class="btn-send" type="submit">Відправити</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
